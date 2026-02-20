@@ -20,10 +20,10 @@ export const NavBar = () => {
           {/* Desktop menu */}
           <div className="hidden md:flex py-4">
             <ul className="flex gap-6 font-large">
-              <li className="hover:text-red-900 font-bold cursor-pointer px-3 py-2 rounded-md transition">HOME</li>
-              <li className="hover:text-red-900 font-bold cursor-pointer px-3 py-2 rounded-md transition">ABOUT</li>
-              <li className="hover:text-red-900 font-bold cursor-pointer px-3 py-2 rounded-md transition">SERVICES</li>
-              <li className="hover:text-red-900 font-bold cursor-pointer px-3 py-2 rounded-md transition">CONTACT</li>
+              <li className="hover:text-black font-bold cursor-pointer px-3 py-2 rounded-md transition">HOME</li>
+              <li className="hover:text-black font-bold cursor-pointer px-3 py-2 rounded-md transition">ABOUT</li>
+              <li className="hover:text-black font-bold cursor-pointer px-3 py-2 rounded-md transition">SERVICES</li>
+              <li className="hover:text-black font-bold cursor-pointer px-3 py-2 rounded-md transition">CONTACT</li>
             </ul>
           </div>
 
@@ -31,7 +31,7 @@ export const NavBar = () => {
           <div className="md:hidden ">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 text-2xl font-black cursor-pointer hover:bg-red-700 rounded-md focus:outline-none focus:ring-2 focus:ring-white transition"
+              className="p-2 text-2xl font-black cursor-pointer hover:text-black transition duration-300"
               aria-label={isOpen ? "Close menu" : "Open menu"}
             >
               {isOpen ? '≡' : '≡'}
@@ -47,16 +47,16 @@ export const NavBar = () => {
             className="fixed top-24 sm:top-24 right-0 w-50 h-150 bg-white-500/80 text-red-400 flex flex-col justify-start items-center gap-6 p-7 shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            <a href="#" className="text-xl font-bold uppercase hover:text-red-700 py-3 block w-full text-center transition">
+            <a href="#" className="text-xl font-bold uppercase hover:text-black transition duration-300">
               HOME
             </a>
-            <a href="#" className="text-xl font-bold uppercase hover:text-red-700 py-3 block w-full text-center transition">
+            <a href="#" className="text-xl font-bold uppercase hover:text-black transition duration-300">
               ABOUT
             </a>
-            <a href="#" className="text-xl font-bold uppercase hover:text-red-700 py-3 block w-full text-center transition">
+            <a href="#" className="text-xl font-bold uppercase hover:text-black transition duration-300">
               Services
             </a>
-            <a href="#" className="text-xl font-bold uppercase hover:text-red-700 py-3 block w-full text-center transition">
+            <a href="#" className="text-xl font-bold uppercase hover:text-black transition duration-300">
               CONTACT
             </a>
           </div>
