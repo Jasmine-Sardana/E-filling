@@ -3,12 +3,14 @@ import React from 'react'
 export const About = () => {
   return (
     <div flex flex-col>
-      <main className='flex-grow'>About</main>
+      <h1>about</h1>
+
+
+    
 
     </div>
   )
 }
-
 
 
 

@@ -7,7 +7,7 @@ export const NavBar = () => {
   return (
     <>
       {/* Fixed Top Navbar */}
-      <nav className="fixed top-0 left-0 right-0 bg-red-500/80 text-white px-4 py-4 sm:px-6 lg:px-4 z-50 shadow-lg">
+      <nav className="fixed top-0 left-0 right-0 text-red-500 px-4 py-4 sm:px-6 lg:px-4 z-50 shadow-lg bg-white">
         <div className="flex items-center justify-between">
           
           {/* Logo */}
@@ -42,9 +42,9 @@ export const NavBar = () => {
 
       {/* Mobile Overlay Drawer */}
       {isOpen && (
-        <div className="fixed inset-0 bg-gray/30 backdrop-blur-sm z-40 md:hidden">
+        <div className="fixed inset-0  z-40 md:hidden ">
           <div
-            className="fixed top-24 sm:top-24 right-0 w-50 h-150 bg-white-500/80 text-red-400 flex flex-col justify-start items-center gap-6 p-7 shadow-2xl"
+            className="fixed top-24 sm:top-24 right-0 w-[30%] h-150 bg-white text-red-400 flex flex-col justify-start items-center gap-6 p-7 shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <a href="#" className="text-xl font-bold uppercase hover:text-black transition duration-300">

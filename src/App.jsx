@@ -1,7 +1,8 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-import NavBar from './layout/NavBar'
+import NavBar from './layout/Navbar'
 import { Route, Routes } from 'react-router-dom'
+import Footer from './layout/Footer'
 
 
 import React from 'react'
@@ -14,12 +15,16 @@ export const App = () => {
   return (
     <>
     <NavBar/>
+    <main className='pt-30 pb-20 grow'>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path='/About' element={<About/>} />
       <Route path='/Services' element={<Services/>}/>
       <Route path='/Contact' element={<Contact/>}/>
     </Routes>
+    </main>
+    <Footer/>
+    
     </>
     
   )
