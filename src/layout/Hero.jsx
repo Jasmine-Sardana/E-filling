@@ -18,7 +18,7 @@ export const Hero = () => {
                 </button>
 
                 {/* Our Services */}
-                <button className="flex gap-3 border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl text-lg font-semibold hover:border-gray-400 hover:bg-gray-50 transition duration-300">
+                <button className="flex gap-3 border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl text-lg font-semibold hover:border-red-400 hover:bg-gray-50 transition duration-300">
                     <File size={22} />
                     Services
                 </button>

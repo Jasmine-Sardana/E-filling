@@ -27,7 +27,7 @@ const features = [
 
 export function ChooseUs(){
     return(
-        <section className='bg-gray-300 lg:px-8 sm:px-6'>
+        <section className='lg:px-8 sm:px-6'>
             <div className=' max-w-4xl mx-auto text-center'>
                 <h2 className='text-3xl font-semibold lg:p-5 '> Why Choose Us?</h2>
             </div>
@@ -43,7 +43,7 @@ export function ChooseUs(){
                             <div className='w-20 h-20 group-hover:scale-110 transition-transform bg-red-600 rounded-2xl flex items-center justify-center mx-auto '>
                             <Icon className="text-white mb-4 size={36} "/>
                             </div>
-                            <h3 className="text-xl font-semibold mb-2">
+                            <h3 className="text-xl font-semibold mb-2 p-3">
                                 {features.title}
                             </h3>
                             <p className="text-gray-600">
@@ -56,8 +56,7 @@ export function ChooseUs(){
                 })}
             </div>
 
-
         </section>
     )
 }
-
+export default ChooseUs
