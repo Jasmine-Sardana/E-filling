@@ -32,7 +32,7 @@ export function Testimonial() {
                 <p className='text-black'>See what our clients say about us! </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="lg:flex justify-center md:grid-cols-3 gap-8">
                 {testimonials.map((testimonial, index) => (
                     <div
                         key={index}
