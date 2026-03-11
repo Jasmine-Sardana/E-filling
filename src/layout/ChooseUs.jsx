@@ -30,6 +30,7 @@ export function ChooseUs(){
         <section className='lg:px-8 sm:px-6'>
             <div className=' max-w-4xl mx-auto text-center'>
                 <h2 className='text-3xl font-semibold lg:p-5 '> Why Choose Us?</h2>
+                <div className="w-40 h-1 bg-red-600 mx-auto mb-4"></div>
             </div>
             
             <div className='grid lg: grid-cols-2 gap-10 p-4 '>

@@ -6,7 +6,7 @@ import { Copyright } from 'lucide-react';
 
 export const Footer = () => {
   return (
-    <footer className='text-black fixed bottom-0 left-0 right-0 bg-red-200'>
+    <footer className='text-black bg-red-200'>
         <div className='text-center'>
 
           <div>

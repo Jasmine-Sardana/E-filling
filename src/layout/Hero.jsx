@@ -6,8 +6,8 @@ export const Hero = () => {
     <div className='text-black mt-4 p-2 flex-col gap-3 '>
         <div className='text-center p-3 flex-col gap-4'>
             
-            <h1 className='font-bold text-4xl'>Expert Tax & Financial Advisory Services </h1>
-            <h2 className='text-gray-700 mt-2'> Helping individuals and businesses manage taxes, compliance, and financial growth.</h2>
+            <h1 className='font-bold lg: text-6xl'>Expert Tax & Financial Advisory Services </h1>
+            <h2 className='text-gray-700 lg:text-2xl p-3 mt-2'> Helping individuals and businesses manage taxes, compliance, and financial growth.</h2>
 
             <div className="flex justify-center mt-7 gap-6 p-2.5 items-center ">
 
